@@ -27,7 +27,7 @@ client.once('ready', () => {
       console.log(`Home server set as ${server.name}`);
 
       const nickname = client.homeServer.me.nickname || client.user.username;
-      client.user.setPresence({game: {name: `{EZMod} welcomes`}});
+      client.user.setPresence({game: {name: `EZMod welcomes`}});
       return;
     }
   }
