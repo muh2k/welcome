@@ -103,15 +103,7 @@ You will also note that you can customise the message that the bot sends to the 
 
 You can optionally customise the help message that the bot sends to the user when they type `help` (or if they fail to choose a role within a certain amount of time) by editing `help.js`.
 
-## Invite bot to server
 
-Now you need to go back to the Discord developer portal page for your bot and copy the Client ID from the "General Information" tab. Once you've done this, paste it into this URL, replacing the bit that says `<CLIENT_ID>`:
-
-```
-https://discordapp.com/oauth2/authorize?client_id=<CLIENT_ID>&scope=bot&permissions=268512256
-```
-
-Then copy the URL and paste it into a web browser. Choose your server from the dropdown and click OK.
 
 ## Run the bot!
 
